@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
-
 html, body {
     height: 100%;
     margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
 }
 
 main {
@@ -18,6 +12,8 @@ main {
 body {
    background-color: #ede8d4;
    font-family: 'Lexend', sans-serif;
+   display: flex;
+   flex-direction: column;
 }
 
 .container{
@@ -27,32 +23,28 @@ body {
     border-radius: 50px;
     margin-top: 10px;
     width: 100%;
-}
-
-.container img {
-    width: 100px;
-    height: auto;
-    margin-left: 50px;
-   
+    gap: 120px;
 }
 
 .home {
-    margin-right: 150px;
-    margin-left: 300px;
+    margin-right: 100px;
+    margin-left: 400px;
+  
 }
 
 .about {
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .favorites {
-   margin-right: 150px;
+   margin-right: 100px;
 }
 
 .home a, .about a, .favorites a {
     text-decoration: none;
     color: black;
 }
+
 
 .border2 {
     background-color: #d4c4ab;
@@ -95,19 +87,22 @@ body {
 
 
 footer {
-    background-color: #a68767;
-    color: #fff;
+   background-color: #a68767;
     text-align: center;
     padding: 10px 0;
     font-size: 25px;
     width: 100%;
-    height: 50px;
+    display: flex;              
+    justify-content: center;    
+    gap: 150px;                 
+    margin-top: auto;
 }
 
-footer a {
+.footer a {
     color: black;
     text-decoration: none;
-    margin-right: 100px;
+    margin-top: 10px;
     margin-left: 100px;
-    text-align: center;
+    margin-right: 100px;
+    display: inline-block; 
 }
